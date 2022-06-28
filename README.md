@@ -3,7 +3,7 @@
 
 This is the  Pytorch implementation of  the paper `More to Less (M2L): Enhanced Health Recognition in the Wild with Reduced Modality of Wearable Sensors`
 
-## Motivation and Framework.
+## Motivation.
 * Wearable sensors are well suitable for continuous and ubiquitous monitoring of individual’s physiological and behavioral profiles in the free-living context (unobtrusive, affordable and user-friendly).
 * Multiple sensors can provide different measurements of the subjects (i.e., chest pad, wrist wearable sensor, EEG sensors), and the different measurements usually contain complementary information, which is beneficial for healthcare applications.
 * Therefore, fusing information from multiple sensors is a common choice in many applications
@@ -19,13 +19,6 @@ However, most works is built on the assumption: <mark> have access to an equal n
 
 * The assumption does not hold true in many  real-world scenarios due to various factors, i.e., `Device size/cost`, `Energy consumption constraint`, `Signal lost`, `User’s preference`, etc.
 * Therefore, it is critical to bridge the gap between the models developed using multiple sensors during development and the models using less number of sensors during deployment in the wild.
-
-
-<p align="center">
-<img src="./imgs/framework.png" height = "420" alt="" align=center />
-<br><br>
-<b>Figure 2.</b> Framework of the proposed method..
-</p>
 
 
 
